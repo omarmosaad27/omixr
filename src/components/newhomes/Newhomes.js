@@ -57,7 +57,7 @@ function Newhomes({NewHomesData}) {
                                 <p>{item.pOne}</p>
                             </ColLeft>
                             <ColRight>
-                                <img src={item.image1} alt="home" />
+                                <img src={item.image2} alt="home" />
                                 <p>{item.pTwo}</p>
                             </ColRight>
                         </Grid>
