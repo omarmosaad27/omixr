@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/omixr/static/css/main.0a2fe326.chunk.css",
-    "main.js": "/omixr/static/js/main.5c400fe6.chunk.js",
-    "main.js.map": "/omixr/static/js/main.5c400fe6.chunk.js.map",
+    "main.js": "/omixr/static/js/main.6d9038d6.chunk.js",
+    "main.js.map": "/omixr/static/js/main.6d9038d6.chunk.js.map",
     "runtime-main.js": "/omixr/static/js/runtime-main.0645d5f7.js",
     "runtime-main.js.map": "/omixr/static/js/runtime-main.0645d5f7.js.map",
-    "static/js/2.f86ca473.chunk.js": "/omixr/static/js/2.f86ca473.chunk.js",
-    "static/js/2.f86ca473.chunk.js.map": "/omixr/static/js/2.f86ca473.chunk.js.map",
+    "static/js/2.16202406.chunk.js": "/omixr/static/js/2.16202406.chunk.js",
+    "static/js/2.16202406.chunk.js.map": "/omixr/static/js/2.16202406.chunk.js.map",
     "static/js/3.6767e99a.chunk.js": "/omixr/static/js/3.6767e99a.chunk.js",
     "static/js/3.6767e99a.chunk.js.map": "/omixr/static/js/3.6767e99a.chunk.js.map",
     "index.html": "/omixr/index.html",
     "static/css/main.0a2fe326.chunk.css.map": "/omixr/static/css/main.0a2fe326.chunk.css.map",
-    "static/js/2.f86ca473.chunk.js.LICENSE.txt": "/omixr/static/js/2.f86ca473.chunk.js.LICENSE.txt",
+    "static/js/2.16202406.chunk.js.LICENSE.txt": "/omixr/static/js/2.16202406.chunk.js.LICENSE.txt",
     "static/media/home1.af55f5b6.jpg": "/omixr/static/media/home1.af55f5b6.jpg",
     "static/media/home2.7b403623.jpg": "/omixr/static/media/home2.7b403623.jpg",
     "static/media/house-1.b8266d2a.jpg": "/omixr/static/media/house-1.b8266d2a.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0645d5f7.js",
-    "static/js/2.f86ca473.chunk.js",
+    "static/js/2.16202406.chunk.js",
     "static/css/main.0a2fe326.chunk.css",
-    "static/js/main.5c400fe6.chunk.js"
+    "static/js/main.6d9038d6.chunk.js"
   ]
 }
