@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styled from 'styled-components'
 import {NavLink} from 'react-router-dom'
 import {menuData} from '../../data/menudata'
@@ -7,13 +7,16 @@ import Bars from '../../images/iconfinder_menu-alt-2_7124120.svg'
 import {FaBars} from 'react-icons/fa'
 const Nav = styled.div`
     height:60px;
-    z-index:100;
+    z-index:1000;
     display:flex;
     justify-content:space-between;
     padding:3rem 3rem;
-    position:absolute;
+    position:fixed;
     width:100%;
     align-items:center;
+    &.active{
+        background: #000d1a;
+    }
 `;
 const Logo = styled(NavLink)`
     color:white;
@@ -70,9 +73,17 @@ const MenuBars = styled(FaBars) `
     }
 `
 const Navbar = ({toggle})=>{
-    
+    const [navbar,setNavbar] = useState(false)
+    const changeNavBack = ()=>{
+        if(window.scrollY >= 500){
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    }
+    window.addEventListener("scroll",changeNavBack)
     return(
-        <Nav className="navbar"  >
+        <Nav className={navbar?"navbar active":"navbar"}  >
             
                 <Logo to="/">OMIXR</Logo>
                 <MenuBars onClick={toggle}/>
@@ -87,7 +98,7 @@ const Navbar = ({toggle})=>{
                         })}
                 </Navmenu>
                 <NavBtn>
-                    <Btn to="/contact " primary="true">Contact Us</Btn>
+                    <Btn to="/contact " >Contact Us</Btn>
                 </NavBtn>
         </Nav>
     )
